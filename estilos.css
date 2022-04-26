@@ -1,0 +1,179 @@
+body {
+    background: #feb3ba;
+    text-align: center;
+}
+
+header{
+    background-color: #feb3ba;
+}
+
+header nav li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-style{
+    border-bottom: 0%;
+}
+
+.nav_link  {
+    list-style: none;
+    padding: 30px;
+}
+
+.nav_link  li  {
+    display: inline-block;
+    padding: 0% 20px;
+    
+}
+
+.nav_link li a {
+    transition: all 0,6s ease 0s;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.nav_link li a:hover {
+    color: rgb(255, 255, 255);
+} 
+
+
+/* #container {
+    height: auto;
+    width: 1100px; 
+    margin: 0px auto;
+    border: 1px solid white;
+    
+}  */
+/*-----FOOTER-----*/
+
+footer {
+    height: auto;
+    width: 1100px;
+    margin: 60px ;    
+    display: inline;
+    
+}
+
+footer div ul a{
+    text-decoration: none;
+    
+}
+
+
+
+.redes-footer ul{
+    margin-right: 50px;
+}
+
+
+/*---------------formulario--------------*/
+fieldset {
+    height: auto;
+    width: auto;
+    margin: 0px;  
+}
+
+.clearfix {
+    clear: both;
+}
+
+*{
+   font-family: 'Courier New', Courier, monospace;
+}
+
+
+             /*Estilos de tienda*/
+
+.sub-title{
+    font-size: 3rem;
+    margin: 50px;
+    color: whitesmoke;
+}
+/*---shop efect------*/
+.item-container{
+    background-color: #feb3ba;
+    border-radius: 10px;
+}
+
+
+/* Start: Video Responsive */
+
+.music-item iframe{
+
+    height:100%;
+    width:100%;
+    
+}
+/* End: Video Responsive */
+
+@media only screen and (min-width:480px){
+    /*-----------style tienda-------*/
+    .shop-container{
+        display: grid;
+        grid-template-columns: repeat(2, 6cm);
+        /* grid-template-rows: repeat(2, 2 cm) 4cm; */
+        grid-column-gap: 1cm;
+        grid-row-gap: 1cm;
+        margin-top: 0%;
+        margin-bottom: 1cm;
+        justify-content: center;
+    }
+        
+    
+    .galery-img{
+        width: 45%;
+    }
+
+
+    .galery-title{
+        font-size: 1rem;
+    }
+ /*----------Estilo Musica-----*/  
+    .music-item iframe{
+        height:350px;
+        width:500px;
+    }
+}
+
+
+@media only screen and (min-width:1024px){
+    /*-----------style tienda-------*/
+    .shop-container{
+        display: grid;
+        grid-template-columns: repeat(3, 8cm);
+        grid-template-rows: repeat(2, 4 cm) 4cm;
+        grid-column-gap: 35px;
+        grid-row-gap: 35px;
+        margin-top: 0%;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+        
+    
+    .galery-img{
+        width: 100%;
+    }
+    
+
+        /*----------Estilo Musica-----*/  
+    .music-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(2, 1fr) ;
+        grid-column-gap: 17px;
+        grid-row-gap: 14px;
+        justify-content: center;
+    }
+        
+
+    .music-item iframe{
+        height:350px;
+        width:500px;
+    }
+}
+    
+
+
