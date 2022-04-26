@@ -96,8 +96,12 @@ fieldset {
 .item-container{
     background-color: #feb3ba;
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
-
+.item-container:hover {
+    filter: opacity(0.9);
+    transform: scale(1.05);
+}
 
 /* Start: Video Responsive */
 
