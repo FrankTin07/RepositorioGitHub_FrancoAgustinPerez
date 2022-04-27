@@ -1,4 +1,5 @@
 body {
+    font-family: 'Courier New', Courier, monospace;
     background: #feb3ba;
     text-align: center;
 }
@@ -49,7 +50,7 @@ header nav li{
 }  */
 /*-----FOOTER-----*/
 
-footer {
+/* footer {
     height: auto;
     width: 1100px;
     margin: 60px ;    
@@ -66,26 +67,58 @@ footer div ul a{
 
 .redes-footer ul{
     margin-right: 50px;
+} */
+
+/*===================SLIDER DE IMAGENES==========================*/
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+
+  
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+#seccion-contacto{
+    
+    min-height:500px;
+    position:relative;
 }
 
 
-/*---------------formulario--------------*/
-fieldset {
-    height: auto;
-    width: auto;
-    margin: 0px;  
-}
+#contenedor-formulario{
 
-.clearfix {
-    clear: both;
-}
-
-*{
-   font-family: 'Courier New', Courier, monospace;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
 }
 
 
-             /*Estilos de tienda*/
+
+/*=========================FOOTER================================*/
+
+footer {
+    background: #f3f3f3;
+    min-height: 100px;;
+}
+footer p{
+    color:#0a0909;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#0a0909;
+}
+
+
+
+
+
+/*=========================SHOP STYLE================================*/
 
 .sub-title{
     font-size: 3rem;
