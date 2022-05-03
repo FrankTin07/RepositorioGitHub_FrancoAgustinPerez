@@ -75,7 +75,7 @@ footer div ul a{
     max-height:39rem !important;
 }
 
-  
+
 
 /*=========================CONTACTOS FORMULARIO================================*/
 
@@ -113,9 +113,43 @@ footer p{
     padding: 0 8px;
     color:#0a0909;
 }
+/*=========================TOUR STYLE================================*/
+
+.tour_tittle{
+    position: relative;
+
+}
 
 
 
+.live_tickets{
+    display: block;
+}
+
+.concierto-ciudad{
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+    height: 90px;
+    padding-top: 25px;
+}
+
+.concierto-fecha{
+    box-sizing: border-box;
+    background-color: #E8A097;
+}
+
+.concierto-ticket{
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.font-ticket{
+    text-decoration: none;
+    font-style: none;
+    color: #f3f3f3;
+}
 
 
 /*=========================SHOP STYLE================================*/
@@ -129,6 +163,12 @@ footer p{
 .item-container{
     background-color: #feb3ba;
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item-container:hover {
+    filter: opacity(0.9);
+    transform: scale(1.05);
 }
 
 
@@ -164,7 +204,7 @@ footer p{
     .galery-title{
         font-size: 1rem;
     }
- /*----------Estilo Musica-----*/  
+/*----------Estilo Musica-----*/  
     .music-item iframe{
         height:350px;
         width:500px;
