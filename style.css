@@ -1,0 +1,22 @@
+body {
+  background-color: #feb3ba;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+footer {
+  background-color: #f3f3f3;
+}
+
+footer p {
+  color: #0a0909;
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #0a0909;
+}
+
+/*# sourceMappingURL=style.css.map */
